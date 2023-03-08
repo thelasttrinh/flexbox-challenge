@@ -1,29 +1,49 @@
-.panel-all {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.panel {
-  margin: 5px;
-  margin-right: 50%;
-  border: 1px solid #252525;
-}
-
-#heading {
+header {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  margin-bottom: 5px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.links h2 {
+  margin-right: 100px;
+}
+
 #nology {
   background-color: green;
-  color: white;
+  border: 5px solid green;
+  margin: -5px;
 }
-#right-hand {
-  /* display: flex;
-  flex-direction: column; */
+
+.main {
+  display: flex;
+}
+.left {
+  flex-direction: column;
+}
+.left div {
+  border: 2px solid black;
+  margin: 10px;
+  width: 150vh;
+  height: 28vh;
+}
+.right {
+  border: 2px solid black;
+  justify-content: center;
   align-items: center;
-  border: 1px solid #252525;
-  margin: 5px;
-  margin-left: auto;
+  margin: 10px;
+  width: 50vh;
+  height: 87vh;
 }
